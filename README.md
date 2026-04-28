@@ -62,7 +62,7 @@ The following block diagram represents the hardware integration of the autonomou
 
 Mission Planner software is used to define the autonomous flight path for the drone before deployment in agricultural fields.
 
-![Drone System Architecture](./Images/flow%20chart.jpeg)
+![Mission Planner Flight Path](./Images/mission%20planner.jpeg)
 
 ### Steps to Set Path in Mission Planner
 
