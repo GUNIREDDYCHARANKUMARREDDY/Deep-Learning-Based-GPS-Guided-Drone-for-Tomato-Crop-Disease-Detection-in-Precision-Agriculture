@@ -202,13 +202,7 @@ The model was evaluated using:
 
 ## Evaluation Metrics
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- Training Loss
-- Validation Loss
+![Detection Report](./Images/report.png)
 
 ---
 ## Objectives
