@@ -226,62 +226,12 @@ The model was evaluated using:
 
 ---
 
-## Hardware Components
-
-- Pixhawk /  2.4.8 Flight Controller
-- GPS Module
-- Raspberry Pi 5
-- Camera Module
-- Brushless Motors
-- ESCs (Electronic Speed Controllers)
-- Telemetry Module
-- BEC Module
-- Li-Po Battery (5400mAh 4S)
-- Drone Frame
-
----
-
 ## Software & Technologies Used
 
 ### Programming:
 - Python
 - OpenCV
 - PyTorch
-
-
-### Deep Learning:
-- ResNet Architecture
-- CNN Classification
-- Data Augmentation
-- Image Preprocessing
-
----
-
-## System Workflow
-
-1. Mission Planner defines GPS waypoints
-2. Drone autonomously flies over an agricultural field
-3. Camera captures crop images
-4. Raspberry Pi processes images
-5. ResNet model detects disease
-6. GPS coordinates are recorded
-7. Disease type is classified
-8. Treatment suggestions are generated
-9. Data is stored for precision farming
-
----
-
-## Model Performance
-
-- **Model:** ResNet
-- **Accuracy:** ~99%
-- **Metrics Used:**
-  - Confusion Matrix
-  - Accuracy Curve
-  - Loss Curve
-  - Validation Performance
-
----
 
 ## Applications
 
@@ -313,7 +263,6 @@ The model was evaluated using:
 - Mobile application alerts
 - Multi-crop disease detection
 - 5G drone communication
-- Swarm drone deployment
 - Cloud-based agricultural analytics
 
 ---
