@@ -57,6 +57,61 @@ The following block diagram represents the hardware integration of the autonomou
 - **ESCs (Electronic Speed Controllers):** Control motor speeds
 - **Brushless Motors:** Enable drone flight and movement
 
+
+## Mission Planner Setup and GPS Waypoint Path Configuration
+
+Mission Planner software is used to define the autonomous flight path for the drone before deployment in agricultural fields.
+
+![Drone System Architecture](./Images/flow%20chart.jpeg)
+
+### Steps to Set Path in Mission Planner
+
+1. **Connect Pixhawk Flight Controller**
+   - Connect Pixhawk/APM 2.8.6 to laptop via telemetry
+   - Open Mission Planner software
+   - Select appropriate COM port
+   - Click **Connect**
+
+2. **Calibrate Drone Components**
+   - Accelerometer calibration
+   - Compass calibration
+   - Radio calibration
+   - ESC calibration
+
+3. **Configure Flight Mode**
+   - Set flight mode to **AUTO**
+   - Enable GPS lock
+   - Verify satellite connection
+
+4. **Open Flight Plan Tab**
+   - Navigate to **Flight Plan**
+   - Select agricultural field location on the map
+   - Use the map interface to mark waypoints manually
+
+5. **Set GPS Waypoints**
+   - Add multiple waypoints across the tomato crop field
+   - Define:
+     - Latitude
+     - Longitude
+     - Altitude
+
+6. **Assign Commands**
+   - TAKEOFF
+   - WAYPOINT
+   - LOITER (optional)
+   - LAND / RTL (Return to Launch)
+
+7. **Write Mission to Drone**
+   - Click **Write WPs**
+   - Upload flight path to Pixhawk
+
+8. **Start Autonomous Mission**
+   - Arm drone
+   - Switch to AUTO mode
+   - Drone follows predefined path automatically
+
+---
+
 ## Objectives
 
 - Early detection of tomato crop diseases
