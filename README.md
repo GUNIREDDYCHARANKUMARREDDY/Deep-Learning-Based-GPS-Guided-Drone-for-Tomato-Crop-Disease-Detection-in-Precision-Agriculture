@@ -42,7 +42,7 @@ G. Pullaiah College of Engineering and Technology, Kurnool
 
 The following block diagram represents the hardware integration of the autonomous drone system used for tomato crop disease detection:
 
-![Drone System Architecture](Images/flow chart.jpeg)
+![Drone System Architecture](./Images/flow%20chart.jpeg)
 
 ### Architecture Description:
 
