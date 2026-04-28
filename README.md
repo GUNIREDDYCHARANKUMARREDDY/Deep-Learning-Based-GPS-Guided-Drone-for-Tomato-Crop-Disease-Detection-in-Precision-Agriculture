@@ -98,7 +98,7 @@ The following block diagram represents the hardware integration of the autonomou
 
 ## Hardware Components
 
-- Pixhawk / APM 2.8 Flight Controller
+- Pixhawk /  2.4.8 Flight Controller
 - GPS Module
 - Raspberry Pi 5
 - Camera Module
@@ -116,12 +116,8 @@ The following block diagram represents the hardware integration of the autonomou
 ### Programming:
 - Python
 - OpenCV
-- TensorFlow / PyTorch
+- PyTorch
 
-### Tools:
-- Mission Planner
-- MAVLink
-- Raspberry Pi OS
 
 ### Deep Learning:
 - ResNet Architecture
@@ -134,7 +130,7 @@ The following block diagram represents the hardware integration of the autonomou
 ## System Workflow
 
 1. Mission Planner defines GPS waypoints
-2. Drone autonomously flies over agricultural field
+2. Drone autonomously flies over an agricultural field
 3. Camera captures crop images
 4. Raspberry Pi processes images
 5. ResNet model detects disease
