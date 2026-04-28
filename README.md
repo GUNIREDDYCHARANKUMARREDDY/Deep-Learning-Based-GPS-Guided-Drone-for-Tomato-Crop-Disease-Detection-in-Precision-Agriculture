@@ -184,19 +184,19 @@ The model was evaluated using:
 - Shows training and validation accuracy progression
 - Achieved approximately **99% classification accuracy**
 
-![Model Accuracy](./Images/accuracy.PNG)
+![Model Accuracy](./Images/accuracy.png)
 
 ### Loss Graph
 - Demonstrates reduction in training and validation loss
 - Indicates effective convergence
 
-![Model Loss](./Images/loss.PNG)
+![Model Loss](./Images/loss.png)
 
 ### Confusion Matrix
 - Visualizes classification performance across all disease classes
 - Confirms strong prediction reliability
 
-![Model Loss](./Images/confusion-matrix.PNG)
+![Model Loss](./Images/confusion-matrix.png)
 
 ---
 
