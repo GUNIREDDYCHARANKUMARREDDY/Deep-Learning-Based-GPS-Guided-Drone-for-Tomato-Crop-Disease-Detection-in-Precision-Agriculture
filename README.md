@@ -19,24 +19,6 @@ The drone autonomously follows predefined GPS waypoints, captures high-resolutio
 
 ---
 
-## Team Members
-
-This project was successfully developed as a final year academic project by:
-
-- **Guni Reddy Charan Kumar Reddy** (22AT1A0451)
-- **Kadamurugandla Sri Guru Datta** (22AT1A0463)
-- **Bekkasula Vinay** (22AT1A0414)
-
----
-
-## Academic Guidance
-
-**Project Supervisor:**  
-Dr. K.C.T. Swamy, M.E., Ph.D.  
-Professor, Department of Electronics and Communication Engineering  
-G. Pullaiah College of Engineering and Technology, Kurnool
-
----
 
 ## System Architecture
 
@@ -333,6 +315,27 @@ The model was evaluated using:
 - 5G drone communication
 - Swarm drone deployment
 - Cloud-based agricultural analytics
+
+---
+
+## Team Members
+
+This project was successfully developed as a final year academic project by:
+
+![Project Team](./Images/team.jpeg)
+
+- **Guni Reddy Charan Kumar Reddy** (22AT1A0451)
+- **Kadamurugandla Sri Guru Datta** (22AT1A0463)
+- **Bekkasula Vinay** (22AT1A0414)
+
+---
+
+## Academic Guidance
+
+**Project Supervisor:**  
+Dr. K.C.T. Swamy, M.E., Ph.D.  
+Professor, Department of Electronics and Communication Engineering  
+G. Pullaiah College of Engineering and Technology, Kurnool
 
 ---
 
