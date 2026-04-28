@@ -196,7 +196,7 @@ The model was evaluated using:
 - Visualizes classification performance across all disease classes
 - Confirms strong prediction reliability
 
-![Confusion Matrix](./Images/confusion-matrix.png)
+![Confusion Matrix](./Images/confusion%20matrix.png)
 
 ---
 
