@@ -111,7 +111,106 @@ Mission Planner software is used to define the autonomous flight path for the dr
    - Drone follows predefined path automatically
 
 ---
+## Deep Learning Model: ResNet Architecture
 
+The disease detection system uses the **Residual Network (ResNet)** deep learning architecture for accurate classification of tomato crop diseases.
+
+
+### Why ResNet?
+
+ResNet was selected because of its:
+
+- High classification accuracy
+- Ability to train deep neural networks efficiently
+- Residual learning to overcome vanishing gradient problems
+- Strong feature extraction capability
+- Excellent performance in agricultural image classification
+
+---
+
+### Training and Testing Pipeline
+
+![Training and Testing Workflow](./Images/Methodology.jpeg)
+
+#### Training Phase:
+- Data acquisition
+- Image preprocessing
+- Data augmentation
+- ResNet training
+- Feature extraction
+- Disease classification
+
+#### Testing Phase:
+- Test image preprocessing
+- Disease prediction
+- GPS location mapping
+- Chemical treatment recommendation
+- Data storage
+
+---
+
+### ResNet Workflow
+
+![ResNet Architecture](./Images/resnet.jpeg)
+
+1. **Input Layer**
+   - Tomato leaf images resized to 224x224x3
+
+2. **Convolution Layer**
+   - Feature extraction from leaf images
+
+3. **Max Pooling Layer**
+   - Reduces feature dimensions
+
+4. **Residual Layers**
+   - Layer 1
+   - Layer 2
+   - Layer 3
+   - Layer 4
+
+5. **Global Average Pooling**
+   - Converts extracted features into classification vector
+
+6. **Fully Connected Classifier**
+   - Identifies disease category
+
+---
+
+## Performance Evaluation
+
+The model was evaluated using:
+
+### Accuracy Graph
+- Shows training and validation accuracy progression
+- Achieved approximately **99% classification accuracy**
+
+![Model Accuracy](./Images/accuracy.PNG)
+
+### Loss Graph
+- Demonstrates reduction in training and validation loss
+- Indicates effective convergence
+
+![Model Loss](./Images/loss.PNG)
+
+### Confusion Matrix
+- Visualizes classification performance across all disease classes
+- Confirms strong prediction reliability
+
+![Model Loss](./Images/confusion-matrix.PNG)
+
+---
+
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+- Training Loss
+- Validation Loss
+
+---
 ## Objectives
 
 - Early detection of tomato crop diseases
