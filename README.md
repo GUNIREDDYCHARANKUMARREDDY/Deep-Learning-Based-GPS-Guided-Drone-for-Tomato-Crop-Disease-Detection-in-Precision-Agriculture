@@ -6,6 +6,8 @@ Agriculture plays a vital role in the global economy, but crop diseases signific
 
 This final year project presents an **AI-powered autonomous drone system** designed to monitor tomato crops, detect diseases in real-time, and support precision agriculture practices.
 
+![Drone Prototype](./Images/drone.jpg)
+
 The system integrates:
 
 - **Pixhawk / APM 2.8.6 Flight Controller**
